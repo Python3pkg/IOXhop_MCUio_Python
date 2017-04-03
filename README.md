@@ -2,7 +2,12 @@
 ## English
 
 ### Install
-you can install via pip
+install I2C driver
+
+    sudo apt-get install python-smbus i2c-tools
+
+
+then, install library via pip
 
     pip install IOXhop_MCUio
 
@@ -26,7 +31,11 @@ This library open source. Copied, distributed for free
 ให้ต่อขา SCL และ SDA ให้ตรงกัน ระหว่างบอร์ด Arduino ที่นำมาใช้เป็นตัวขยายพอร์ต กับบอร์ดที่นำมาใช้เป็นตัวสั่งงาน
 
 ### การติดตั้งไลบารี่
-สามารถติดตั้งได้โดยใช้ pip
+เตรียมพร้อมใช้งาน I2C โดยส่งคำสั่งต่อไปนี้
+
+    sudo apt-get install python-smbus i2c-tools
+
+จากนั้น สามารถติดตั้งไลบรารี่ได้โดยใช้ pip
 
     pip install IOXhop_MCUio
 
