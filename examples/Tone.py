@@ -5,16 +5,17 @@
 
 
 import time
-import IOXhop_MUCio as mcu
+import IOXhop_MCUio as mcu
 
 def main():
 	mcu.begin(0x08)
 	
-	mcu.mode(2, mcu.INPUT)
+	mcu.mode(9, mcu.OUTPUT)
 	while True:
-		value = mcu.get(2) # Read digital value from pin 2
-		print value # Send value to Console
-		time.sleep(0.5)
+		mcu.tone(9, 2000) # Send sound 2KHz to pin 2
+		time.sleep(1)
+		mcu.Dtone(9) # Cancel send sound to pin 2
+		time.sleep(1)
 
 if __name__ == '__main__':
 	main()

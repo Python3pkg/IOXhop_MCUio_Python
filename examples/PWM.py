@@ -5,7 +5,7 @@
 
 
 import time
-import IOXhop_MUCio as mcu
+import IOXhop_MCUio as mcu
 
 def main():
 	mcu.begin(0x08)
