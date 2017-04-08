@@ -12,7 +12,7 @@ A0, A1, A2, A3, A4, A5 = [14, 15, 16, 17, 18, 19]
 def begin(devAddr, ch = 1):
 	global Wire
 	_devAddr = devAddr
-	Wire = SMBus(1)
+	Wire = SMBus(ch)
 
 def _i2cWrite(addr, value):
 	Wire.write_byte_data(_devAddr, addr, value)

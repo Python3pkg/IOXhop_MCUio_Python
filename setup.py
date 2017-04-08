@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
   name = 'IOXhop_MCUio',
   packages = ['IOXhop_MCUio'],
-  version = '0.1.1',
+  version = '0.1.2',
   description = 'Use your mcu to i/o expansion via I2C interface with Python',
   author = 'IOXhop',
   author_email = 'max30012540@hotmail.com',
