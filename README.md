@@ -14,6 +14,7 @@ then, install library via pip
  
 ### Last test
  * Raspberry Pi zero
+ * NanoPi NEO
  
 ### License
 This library open source. Copied, distributed for free
@@ -41,6 +42,7 @@ This library open source. Copied, distributed for free
 
 ### อุปกรณ์ที่ทดสอบแล้ว
  * Raspberry Pi zero
+ * NanoPi NEO
 
 ### ตัวอย่าง
 
