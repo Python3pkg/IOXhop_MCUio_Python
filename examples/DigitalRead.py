@@ -13,7 +13,7 @@ def main():
 	mcu.mode(2, mcu.INPUT)
 	while True:
 		value = mcu.get(2) # Read digital value from pin 2
-		print value # Send value to Console
+		print(value) # Send value to Console
 		time.sleep(0.5)
 
 if __name__ == '__main__':

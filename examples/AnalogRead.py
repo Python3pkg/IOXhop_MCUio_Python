@@ -12,7 +12,7 @@ def main():
 	
 	while True:
 		value = mcu.Aget(mcu.A0)
-		print value
+		print(value)
 		time.sleep(0.5)
 
 if __name__ == '__main__':
